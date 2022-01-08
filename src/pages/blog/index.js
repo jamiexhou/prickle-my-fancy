@@ -15,7 +15,6 @@ const BlogPage = ({ data }) => {
                                 {node.frontmatter.title}
                             </Link>
                         </h2>
-                        console.log("{`/blog/${node.slug}`}")
                         <p>Posted: {node.frontmatter.date}</p>
                     </article>
                 ))
