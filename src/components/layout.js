@@ -7,7 +7,9 @@ import {
     navLinkItem,
     navLinkText,
     siteTitle,
+    bannerContainer,
 } from './layout.module.css'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Layout = ({pageTitle, children}) => {
     const data = useStaticQuery(graphql`
@@ -42,10 +44,17 @@ const Layout = ({pageTitle, children}) => {
                     </li>
                 </ul>
             </nav>
+            <StaticImage className = {bannerContainer}
+                src = "../images/banner.jpg"
+                alt = "a lovely plant banner, believe me"
+            />
             <main>
                 <h1 className={heading}>{pageTitle}</h1>
                 {children}
             </main>
+            <footer>
+                <a href = "https://github.com/jamiexhou/prickle-my-fancy">View me on Github!</a>
+            </footer>
         </div>
     )
 }
