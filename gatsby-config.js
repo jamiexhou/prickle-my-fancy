@@ -16,4 +16,5 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
   ],
+  pathPrefix: "/prickle-my-fancy",
 }
