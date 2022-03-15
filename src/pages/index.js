@@ -8,18 +8,18 @@ import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <p>Hello there! I'm Jamie and this is a blog I started, with the intention of 
+        learning about how to develop websites. And what better topics to discuss, than my newest quarantine-driven obsession, 
+        growing houseplants! I'm going to try to weekly-ish posts about whats going on in my hobby, as well as updates for the
+        results. Hopefully, other plant parents can enjoy and find insight in this content that I put out!</p>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="../images/icon.png"
+        alt="A multi-head bluish purple echevaria in a terracotta pot on a blue floor."
+        src="../images/echevaria afterglow edited.jpg"
       />
+      <p>The above image is of a succulent I imported under the name Echevaria CV Afterglow! It likes very high light and 
+        (for an echevaria) surprisingly frequent waterings! The farina also rubs off easily.
+      </p>
     </Layout>
-    // <main>
-    //   <title>Home Page</title>
-    //   <h1>Welcome to my Gatsby site!</h1>
-    //   <Link to="/about">About</Link>
-    //   <p>I'm making this by following the Gatsby Tutorial.</p>
-    // </main>
   )
 }
 
