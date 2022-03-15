@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-index-js",
+    "path": "/blog/",
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"March 14, 2022","title":"2022 Plant wishlists and Goals"},"id":"4fb68232-8f96-5ec6-a76d-729ed8db7a37","slug":"2022wishlist/"}]}},"pageContext":{}},
+    "staticQueryHashes": ["3159585216"]}
