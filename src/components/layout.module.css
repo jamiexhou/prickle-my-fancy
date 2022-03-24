@@ -1,9 +1,23 @@
 /* importing fonts 'Lobster Two' and "josefin Slab' from google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap&family=Lobster+Two&display=swap');
 
 body {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Cormorant Garamond', serif;
 }
+
+/* EVERYWHERE */
+a {
+    color: #cc6600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #800000;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/* HEADER */
 
 .banner-container {
     border: 5px solid #f3c86b;
@@ -22,8 +36,6 @@ body {
     text-align: center;
 }
 
-nav ul {
-}
 .nav-links {
     display: flex;
     list-style: none;
