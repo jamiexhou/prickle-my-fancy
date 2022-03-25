@@ -18,6 +18,11 @@ const AboutPage = () => {
         <p>This project was built using Gatsby and Github Pages. I would like to thank everyone
           who helped me with this project and put up with me as I struggled.
         </p>
+        <p>If you're interested in whats going on behind the scenes in my development learning
+          process and my plant learning process, feel free to check out my trello board that I'm 
+          using for organization. Heads up! Here be spoilers: 
+          <a href = "https://trello.com/b/IsYPAWEt/plant-blog"> Trello!</a>
+        </p>
     </Layout>
   )
 }
