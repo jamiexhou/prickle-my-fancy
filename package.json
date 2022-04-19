@@ -21,6 +21,7 @@
     "gatsby": "^4.4.0",
     "gatsby-plugin-image": "^2.4.0",
     "gatsby-plugin-instagram-embed": "^4.0.0",
+    "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-mdx": "^3.9.1",
     "gatsby-plugin-mdx-embed": "^1.0.0",
     "gatsby-plugin-sharp": "^4.10.2",
@@ -30,7 +31,8 @@
     "gatsby-transformer-sharp": "^4.4.0",
     "mdx-embed": "^1.0.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "yarn": "^1.22.18"
   },
   "devDependencies": {
     "eslint": "^8.6.0",
