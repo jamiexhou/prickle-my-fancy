@@ -6,11 +6,11 @@ import Layout from '../components/layout'
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
-        <p>My name is Jamie and I am a 22 year old torontonian. As someone who spends a layout
+        <p>My name is Jamie and I am a 22 year old torontonian. As someone who spends a lot of
           of time outside, I was really slowly being driven insane thanks to the quarantines. So 
           I dedicated my frenzied energy into figuring out how to bring the outside, well, inside!
-          I'm going to attempt to write weekly ish blog posts about the state of my plants, new plant 
-          projects, updates on projects, things I'm trying out, and just whatever strikes my fancy. 
+          I'm going to attempt to write regular blog posts about the state of my plants, new plant 
+          projects, updates on projects, things I'm trying out, and just whatever prickles my fancy.
         </p>
         <p>I am excited to share all of my musing with everyone else in the plant community and 
           hopefully together we can grow bigger and happier plants!
@@ -20,7 +20,8 @@ const AboutPage = () => {
         </p>
         <p>If you're interested in whats going on behind the scenes in my development learning
           process and my plant learning process, feel free to check out my trello board that I'm 
-          using for organization. Heads up! Here be spoilers: 
+          using for organization. I am trying to alternate development and content creation
+          weeks. Expect new articles every other week. Heads up! Here be spoilers: 
           <a href = "https://trello.com/b/IsYPAWEt/plant-blog"> Trello!</a>
         </p>
     </Layout>
