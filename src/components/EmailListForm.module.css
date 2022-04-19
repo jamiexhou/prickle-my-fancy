@@ -1,0 +1,56 @@
+/* CSS FOR MAILCHIMP SIGNUP LIST 
+    Taken and modified from: https://thetrevorharmon.com/blog/email-signup-forms-with-gatsby-and-mailchimp
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap&family=Lobster+Two&display=swap');
+
+.EmailListForm {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #f3c86b;
+    color: #22880d;
+  
+    font-family: 'Cormorant Garamond', serif;
+    padding: 2rem;
+    margin-top: 5rem;
+  }
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Lobster Two', sans-serif;
+}
+
+input {
+    color: #2a2a2a;
+    width: 100%;
+    border: none;
+}
+
+button,
+input {
+    padding: 1rem 1.5rem;
+}
+
+button {
+    display: inline-block;
+    
+    border: none;
+    background-image: none;
+    background-color: #22880d;
+    color: white;
+
+    letter-spacing: 1px;
+    transition: all 0.1s linear;
+}
+
+button:hover {
+    cursor: pointer;
+    background: darken(#DD0505, 15%);
+}
+
+.EmailListForm .Wrapper {
+    display: flex;
+    flex-direction: row;
+}

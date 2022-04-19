@@ -6,22 +6,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    // {
-    //   resolve: `gatsby-transformer-remark`,
-    //   options: {
-    //     plugins: [
-    //       {
-    //         resolve: `gatsby-remark-images`,
-    //         options: {
-    //           // It's important to specify the maxWidth (in pixels) of
-    //           // the content container as this plugin uses this as the
-    //           // base for generating different widths of each image.
-    //           maxWidth: 590,
-    //         },
-    //       },
-    //     ],
-    //   },
-    // },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -56,6 +40,13 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: "https://github.us14.list-manage.com/subscribe/post?u=2d8f8d521432a8712b06d176e&amp;id=5158a1d9b1",
+        // timeout: 3500,
+      },
+    }
   ],
   pathPrefix: "/prickle-my-fancy"
 }

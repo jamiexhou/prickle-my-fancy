@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
+// import {MDXProvider} from "@mdx-js/react"
 import { GatsbyImage, getImage} from 'gatsby-plugin-image'
 import Layout from '../../components/layout'
 
@@ -39,7 +40,7 @@ export const query = graphql`
                 hero_image_credit_text
                 hero_image {
                     childImageSharp {
-                        gatsbyImageData
+                        gatsbyImageData 
                     }
                 }
             }

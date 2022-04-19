@@ -84,11 +84,17 @@ a:hover {
     text-align: center;
 }
 
+span.gatsby-resp-image-background-image{
+    max-height: 125px;
+    min-height: 125px;
+    border: 5px solid #f3c86b;
+}
+
 /* footer */
 footer{
     width: 100%;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 footer a{
@@ -101,3 +107,4 @@ footer a:hover{
     color: black;
     transition: 1s;
 }
+
