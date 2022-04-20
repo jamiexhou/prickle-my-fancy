@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blog-index-js",
     "path": "/blog/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"March 30, 2022","title":"2022 Propogating for spring!"},"id":"da866312-f98b-5c48-beb7-820ff70040c7","slug":"2022-spring-props/"},{"frontmatter":{"date":"March 24, 2022","title":"Importing Aroids from Equagenera"},"id":"de1c6daf-bd83-5c9b-a4a1-ff8b6349e781","slug":"eq-imports/"},{"frontmatter":{"date":"March 14, 2022","title":"2022 Plant wishlists and Goals"},"id":"4fb68232-8f96-5ec6-a76d-729ed8db7a37","slug":"2022wishlist/"}]}},"pageContext":{}},
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"April 19, 2022","title":"My fertilizer routine"},"id":"b61a0dd5-b90c-558b-b7ae-80f96523a3d6","slug":"fertilizer-routine/"},{"frontmatter":{"date":"March 30, 2022","title":"2022 Propogating for spring!"},"id":"da866312-f98b-5c48-beb7-820ff70040c7","slug":"2022-spring-props/"},{"frontmatter":{"date":"March 24, 2022","title":"Importing Aroids from Equagenera"},"id":"de1c6daf-bd83-5c9b-a4a1-ff8b6349e781","slug":"eq-imports/"},{"frontmatter":{"date":"March 14, 2022","title":"2022 Plant wishlists and Goals"},"id":"4fb68232-8f96-5ec6-a76d-729ed8db7a37","slug":"2022wishlist/"}]}},"pageContext":{}},
     "staticQueryHashes": ["3159585216"]}
